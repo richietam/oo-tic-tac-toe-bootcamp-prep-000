@@ -106,7 +106,6 @@ class TicTacToe
       x = won?
       return @board[x[0]]
     else
-      return false
     end
   end
 
