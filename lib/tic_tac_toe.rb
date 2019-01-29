@@ -85,8 +85,8 @@ class TicTacToe
         return win_combination
       else
       end
-        nil
     end
+    return nil
   end
 
   def full?
