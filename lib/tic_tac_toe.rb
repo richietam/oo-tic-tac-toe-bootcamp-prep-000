@@ -44,7 +44,7 @@ class TicTacToe
     counter = 0
     @board.each do |x|
       if x == "O" || x == "X"
-        counter + 1
+        counter += 1
       else
       end
     end
