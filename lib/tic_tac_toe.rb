@@ -109,4 +109,12 @@ class TicTacToe
     end
   end
 
+  def play
+    until over?
+    puts "Please select position 1-9:"
+    turn
+    end
+  end
+
+
 end
