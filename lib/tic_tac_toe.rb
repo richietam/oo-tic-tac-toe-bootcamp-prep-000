@@ -114,6 +114,10 @@ class TicTacToe
     puts "Please select position 1-9:"
     turn
     end
+    if won?
+      puts "Congratulations #{winner!}"
+    else
+      puts "Cat's Game!"
   end
 
 
