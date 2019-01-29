@@ -48,6 +48,7 @@ class TicTacToe
       else
       end
     end
+    return counter
   end
 
 end
