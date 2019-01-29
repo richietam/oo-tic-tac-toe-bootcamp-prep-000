@@ -102,9 +102,8 @@ class TicTacToe
   end
 
   def winner
-  x = win_combination
     if won?
-      won?
+      x = won?
       return x[0]
     else
       return false
