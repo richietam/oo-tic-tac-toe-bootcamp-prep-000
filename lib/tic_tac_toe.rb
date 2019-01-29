@@ -101,6 +101,14 @@ class TicTacToe
     draw? || won?
   end
 
-
+  def winner
+  x = win_combination
+    if won?
+      return x[0]
+    else
+      return false
+    end
+  end
+  end
 
 end
