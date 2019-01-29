@@ -81,7 +81,12 @@ class TicTacToe
       p2 = @board[y]
       p3 = @board[z]
 
-
+      if p1 == "X" && p2 == "X" && p3 == "X" || p1 == "O" && p2 == "O" && p3 == "O"
+        return win_combination
+      else
+      end
+    end
+  end
 
 
 
