@@ -70,6 +70,19 @@ class TicTacToe
     end
   end
 
+  def won?
+    WIN_COMBINATIONS.each do |win_combination|
+
+      x = win_combination[0]
+      y = win_combination[1]
+      z = win_combination[2]
+
+      p1 = @board[x]
+      p2 = @board[y]
+      p3 = @board[z]
+
+
+
 
 
 
